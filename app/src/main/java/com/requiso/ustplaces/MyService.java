@@ -12,9 +12,9 @@ public class MyService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        Log.d("Place", "UST Hospital");
-        Log.d("Place", "UST Field");
-        Log.d("Place", "UST Arch of The Century");
-        Log.d("Place", "UST Main Building");
+            Log.d("Place", "UST Hospital");
+            Log.d("Place", "UST Field");
+            Log.d("Place", "UST Arch of The Century");
+            Log.d("Place", "UST Main Building");
     }
 }

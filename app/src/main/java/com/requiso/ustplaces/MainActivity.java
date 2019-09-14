@@ -2,7 +2,6 @@ package com.requiso.ustplaces;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.IntentService;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,8 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    protected void onResume() {
+        super.onResume();
 
-
+    }
 
     public void displayMsg(View v) {
         Intent i  = new Intent (this, SecondActivity.class);
